@@ -1,0 +1,18 @@
+ingress:
+  enabled: true
+  host: verde.local
+
+htmlContent: |
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <style>
+    body { display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f0f0f0; font-family: sans-serif; }
+    .button { background-color: #0000ff; color: white; padding: 20px 40px; font-size: 24px; border: none; border-radius: 8px; cursor: pointer; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .button:hover { filter: brightness(85%); }
+  </style>
+  </head>
+  <body>
+    <button class="button">CLICK ME</button>
+  </body>
+  </html>
